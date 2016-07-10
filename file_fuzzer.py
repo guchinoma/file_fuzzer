@@ -32,8 +32,8 @@ class file_fuzzer:
         self.ready              = False
         
         self.smtpserver = 'mail.nostarch.com'
-        self.recipients = 'sorgens97chrome@yahoo.co.jp'
-        self.sender     = 'sorgens97chrome@yahoo.co.jp'		
+        self.recipients = ''
+        self.sender     = ''		
  
         self.test_cases = [ "%s%n%s%n%s%n", "\xff", "\x00", "A"]
         
